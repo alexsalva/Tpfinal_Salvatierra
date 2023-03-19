@@ -1,6 +1,6 @@
 div{
     background-color:rgb(121, 233, 251);
-    border: 3px solid rgb(171, 34, 235); /* establece un borde sólido negro de 1px */
+    border: 0px solid rgb(171, 34, 235); /* establece un borde sólido negro de 1px */
 }
 app-redes{
     float: right;
