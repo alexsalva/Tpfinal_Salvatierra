@@ -1,3 +1,15 @@
 .row{
     padding: 20px;
 }
+#nombre{
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-right: 40px;
+    text-align: center;
+}
+#descripcion{
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
