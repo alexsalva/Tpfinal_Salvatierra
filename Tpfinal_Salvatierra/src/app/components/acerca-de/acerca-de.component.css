@@ -1,15 +1,30 @@
 .row{
     padding: 20px;
 }
+
+/*estilo de la foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 10%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(93, 93, 98);
+        left: 4%;
+        top: 420px;
+    }
+}
 #nombre{
     font-weight: bold;
-    margin-top: 5%;
+    margin-top: 16%;
     margin-left: 10px;
-    margin-right: 40px;
-    text-align: center;
+    margin-right: 5px;
+    text-align:center;
+    
 }
+
 #descripcion{
     margin-left: 30px;
     margin-right: 30px;
+    
     
 }
