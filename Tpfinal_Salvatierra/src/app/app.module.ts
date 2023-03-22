@@ -8,6 +8,7 @@ import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
 import { RedesComponent } from './components/redes/redes.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 
 
 
@@ -19,6 +20,7 @@ import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
     RedesComponent,
     BannerComponent,
     AcercaDeComponent,
+    ExperienciaComponent,
 
    
   ],
