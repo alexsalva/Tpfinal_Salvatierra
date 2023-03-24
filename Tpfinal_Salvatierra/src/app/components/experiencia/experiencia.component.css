@@ -1,0 +1,10 @@
+.row{
+    padding: 30px;
+}
+div{
+    background: #86c4ea;
+    color: #031c5c;;
+}
+h1, h3{
+    display: inline;
+}
