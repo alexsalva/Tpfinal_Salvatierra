@@ -6,11 +6,21 @@
 @media (min-width: 576px){
     #fotodeperfil{
         position: absolute;
-        width: 10%;
+        width: 12%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px rgb(93, 93, 98);
-        left: 4%;
-        top: 420px;
+        left: 3%;
+        top: 462px;
+    }
+}
+@media (max-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 25%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(93, 93, 98);
+        left: 38%;
+        top: 520px;
     }
 }
 #nombre{
@@ -19,6 +29,10 @@
     margin-left: 10px;
     margin-right: 5px;
     text-align:center;
+    
+}
+div{
+    background: rgb(205, 205, 206);
     
 }
 
