@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package com.portafolio.david.Security.Entity;
 
 import com.portafolio.david.Security.Entity.Usuario;
 import java.util.Collection;

@@ -1,4 +1,8 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package com.portafolio.david.Service;
 
 import com.portafolio.david.Entity.Persona;
@@ -10,10 +14,9 @@ import org.springframework.stereotype.Service;
 
 
  @Service
-
-public class ImpPersonaService implements IPersonaService{
-    @Autowired IPersonaRepository ipersonaRepository;
-    
+ 
+public class ImpPersonasService implements IPersonaService {
+    @Autowired IPersonaRepository ipersonaRepository; 
 
     @Override
     public List<Persona> getPersona() {
@@ -35,5 +38,6 @@ public class ImpPersonaService implements IPersonaService{
     public Persona findPersona(Long id) {
         Persona persona = ipersonaRepository.findById(id).orElse(null);
         return persona;
-    }  
+    }
+    
 }
